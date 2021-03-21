@@ -13,7 +13,7 @@ export default class CategoryList extends Component {
     }
 
     getCategory = () => {
-        fetch("http://localhost:3000/categories")
+        fetch("https://my-json-server.typicode.com/ooguzyuksel/DB-Json-React/categories")
             .then(response => response.json())
             .then(data => this.setState({ categories: data }));
     }

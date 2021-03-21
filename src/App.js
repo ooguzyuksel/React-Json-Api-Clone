@@ -23,7 +23,7 @@ export default class App extends Component {
   }
 
   getProducts = (categoryId) => {
-    let url = "http://localhost:3000/products";
+    let url = "https://my-json-server.typicode.com/ooguzyuksel/DB-Json-React/products";
     if (categoryId) {
       url += "?categoryId=" + categoryId;
     }
